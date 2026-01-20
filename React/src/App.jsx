@@ -1,18 +1,34 @@
-import './App.css'
-import Card from './components/Card'
+import "./App.css";
+import Card from "./components/Card.jsx";
+import Header from "./components/Header.jsx";
+import Hero from "./components/Hero.jsx";
 
 function App() {
-
   return (
     <>
-      <h1 className='text-pink-500 dark:text-pink-400 border-2 p-4 rounded-xl'>Welcome to Travel Hub</h1>
-    <div className='flex gap-4 mt-4'>
-    <Card goal="Travel" tagline="Let's Go" button="Chalo"/>
-    <Card goal="Fun" tagline="Let's Laugh" button="Haso"/>
-    <Card goal="Sadness" tagline="Let's Cry" button="Rovo"/>
-    </div>
+    <h1>hii</h1>
+      {/* <Hero />
+      <Header />
+      <h1 className="text-blue-600 dark:text-sky-400 border-2 p-4 rounded-xl">
+        Learn to integrate tailwind
+      </h1>
+      <div className="flex gap-4">
+        <Card
+          title="Buy Python course"
+          buttonText="join now"
+          imageurl="https://images.unsplash.com/photo-1509042239860-f550ce710b93"
+        />
+        <Card
+          title="Buy Nodejs course"
+          imageurl="https://images.pexels.com/photos/18681382/pexels-photo-18681382.jpeg"
+        />
+        <Card
+          title="Somewhere in Europe"
+          imageurl="https://images.pexels.com/photos/2519823/pexels-photo-2519823.jpeg"
+        />
+      </div> */}
     </>
-  )
+  );
 }
 
-export default App
+export default App;
